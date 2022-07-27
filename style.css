@@ -70,4 +70,71 @@
     display: none;
   }
   
+  /* Start Section Our-Partners */
+  .heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #1E90FF;
+  }
+  
+  .heading h1 {
+    font-weight: normal;
+    color: #ffff;
+  }
+  
+  .our-partners {
+    background-color: #ffff;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  
+  .lessons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+  
+  .lesson-icon {
+    position: relative;
+    border-left: 1px solid #1E90FF;
+    border-right: 1px solid #1E90FF;
+  }
+  
+  .lesson-icon img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 30px;
+    color: #b3aeb5;
+  }
+  
+  .txt-contents span {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 30px;
+    background-color: #1E90FF;
+    border-radius: 10px;
+    color: #ffff;
+  }
+  
+  /* End Section Our-Partners */
+  
+  
   
