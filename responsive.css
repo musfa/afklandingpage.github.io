@@ -1,4 +1,4 @@
-/* Untuk Tablet */
+/* For Tablet */
 @media all and (max-width: 1000px) {
 
     .lesson {
@@ -10,9 +10,13 @@
         flex-wrap: wrap;
     }
 
+    .product_section h3 {
+        font-size: 32px;
+    }
+
 }
 
-/* Untuk Smartphone */
+/* For Smartphone */
 @media all and (max-width: 670px) {
     .header-right {
         display: none;
@@ -29,5 +33,14 @@
 
     .lesson {
         width: 100%;
+    }
+
+    .container_products {
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product_section h3 {
+        font-size: 20px;
     }
 }
