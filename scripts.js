@@ -12,6 +12,42 @@ $(document).on("click", ".header-right a", function (e) {
     }, 800);
 });
 
+$(".sum_stores").spincrement({
+    from: 0,
+    to: 300,
+    decimalPlaces: 0,
+    decimalPoint: '.',
+    thousandSeparator: ',',
+    duration: 1000, // ms; TOTAL length animation
+    leeway: 50, // percent of duraion
+    easing: 'spincrementEasing',
+    fade: true
+});
+
+$(".sum_customers").spincrement({
+    from: 0,
+    to: 1000,
+    decimalPlaces: 0,
+    decimalPoint: '.',
+    thousandSeparator: ',',
+    duration: 1000, // ms; TOTAL length animation
+    leeway: 50, // percent of duraion
+    easing: 'spincrementEasing',
+    fade: true
+});
+
+$(".sum_products").spincrement({
+    from: 0,
+    to: 3000,
+    decimalPlaces: 0,
+    decimalPoint: '.',
+    thousandSeparator: ',',
+    duration: 1500, // ms; TOTAL length animation
+    leeway: 50, // percent of duraion
+    easing: 'spincrementEasing',
+    fade: true
+});
+
 // $(window).scroll(function () {
 //     var windScroll = $(window).scrollTop();
 //     if(windScroll >= 100) {

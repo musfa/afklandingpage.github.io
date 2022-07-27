@@ -14,8 +14,11 @@ body {
 .about-section {
     padding: 50px;
     text-align: center;
-    background-color: blue;
-    color: white;
+    background-color: rgba(30, 144, 255, 0.4);
+}
+
+.about-section h1 {
+    color: #5f5d60;
 }
 
 h1 {
@@ -152,6 +155,24 @@ span.menu-icon {
 /* End Section Our-Partners */
 
 /* Start Section Products */
+.product_section {
+    background-color: rgba(30, 144, 255, 0.4);
+    height: 1650px;
+}
+
+.product_section_title {
+    padding-top: 50px;
+    color: #5f5d60;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.product_section_desc {
+    text-align: center;
+    font-size: 25px;
+}
+
 .container_products {
     max-width: 80%;
     margin: auto;
@@ -216,13 +237,5 @@ button {
     cursor: pointer;
     font-weight: bold;
     color: white;
-}
-
-.product_section_title {
-    padding-top: 50px;
-    color: #5f5d60;
-    text-align: center;
-    font-size: 45px;
-    font-weight: bold;
 }
 /* End Section Products */
