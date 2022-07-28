@@ -75,6 +75,10 @@ header {
     background-color: rgba(172, 223, 255, 0.3);
 }
 
+.dropdown {
+    display: none;
+}
+
 .active {
     background-color: rgba(172, 223, 255, 0.3);
 }
