@@ -13,6 +13,24 @@
     .product_section h3 {
         font-size: 32px;
     }
+    /* Section Contact Us */
+    .box-contact {
+        flex-wrap: wrap;
+    }
+    .box-icon {
+        width: 50%;
+    }
+    .box-contents {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .box-form{
+        width: 50%;
+        padding: 0px;
+        
+    }
+    /* End Section Contact Us */
 
 }
 
@@ -76,4 +94,38 @@
     .product_section h3 {
         font-size: 20px;
     }
+    .product_section {
+        height: 4000px;
+    }
+    /* Star Section Contact Us */
+    .contact-us {
+        justify-content: center;
+}
+    .box-contact {
+        justify-content: center;
+}
+    .box-icon {
+        width: 100%;
+} 
+
+    .box-contents {
+        justify-content: center;
+        width: 100%;
+}
+    .box-form{
+        width: 100%;
+        padding: 20;
+}
+    .box-form input { 
+        width:100%;
+
+}
+    .box-form textarea {
+        width:100%;
+} 
+    .box-form button {
+        width: 100%;
+        margin: 0;
+}
+ /* End Section Contact Us    */
 }
